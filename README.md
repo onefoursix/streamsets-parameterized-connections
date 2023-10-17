@@ -7,17 +7,18 @@ This project provides examples of how to use the [StreamSets Platform SDK](https
 - Python 3.8+
 
  - StreamSets Platform SDK for Python v6.0.1+
-   See: https://docs.streamsets.com/platform-sdk/latest/learn/installation.html
 
  - StreamSets Platform API Credentials for a user with permissions to start a Job
+
+
+
+- [API Credentials](https://docs.streamsets.com/portal/platform-controlhub/controlhub/UserGuide/OrganizationSecurity/APICredentials_title.html#concept_vpm_p32_qqb) for a user with permissions to start Jobs 
 
  - To avoid including API Credentials in the script, export these two environment variables
    prior to running the script:
 
         export CRED_ID=<your CRED_ID>>
         export CRED_TOKEN=<your CRED_TOKEN>
-
-- [API Credentials](https://docs.streamsets.com/portal/platform-controlhub/controlhub/UserGuide/OrganizationSecurity/APICredentials_title.html#concept_vpm_p32_qqb) for a user with permissions to start Jobs 
 
 ### Configuration Details
 
