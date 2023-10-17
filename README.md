@@ -119,7 +119,7 @@ Assume a Job Template built on a pipeline like this:
 <img src="images/params2.png" alt="params2" width="500"/>
 
 
-A config file that could be used with this template to create two instance with the Oracle table name as a suffix might look like this:
+A config file that could be used with this template to create two instances with the Oracle table names as suffixes might look like this:
 
 ```
 {
