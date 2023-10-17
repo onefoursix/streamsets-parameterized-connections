@@ -42,7 +42,7 @@ Create a JSON config file similar to the [examples](config) included
 
 
 
-### Example #1 - Files to GCP (A single instance)
+### Example #1 - Files to GCP (Starts a single Job Template Instance)
 
 Assume a Job Template built on a pipeline like this:
 
@@ -106,7 +106,7 @@ You should see one Job Template Instance is launched, with a timestamp suffix:
 <img src="images/launch1.png" alt="launch1" width="700"/>
 
 
-### Example #2 - Database to ADLS (Two instances)
+### Example #2 - Database to ADLS (Starts two Job Template Instances))
 
 Assume a Job Template built on a pipeline like this:
 
