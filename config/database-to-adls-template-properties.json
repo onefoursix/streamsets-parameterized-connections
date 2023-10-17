@@ -1,0 +1,19 @@
+{
+  "job_template_id": "187cba47-bef6-474e-882d-8f4445a66f5e:8030c2e9-1a39-11ec-a5fe-97c8d4369386",
+  "instance_name_suffix": "PARAM_VALUE",
+  "parameter_name": "ORACLE_TABLE_PATTERN",
+  "attach_to_template": true,
+  "delete_after_completion": false,
+  "runtime_parameters": [
+    {
+      "ORACLE_CONNECTION": "86a76b7c-0ad9-4da4-8e48-3be048593c40:8030c2e9-1a39-11ec-a5fe-97c8d4369386",
+      "ADLS_CONNECTION": "0a13edd2-d12d-41a1-be13-3da331d87820:8030c2e9-1a39-11ec-a5fe-97c8d4369386",
+      "ORACLE_TABLE_PATTERN": "EMPLOYEE"
+    },
+    {
+      "ORACLE_CONNECTION": "86a76b7c-0ad9-4da4-8e48-3be048593c40:8030c2e9-1a39-11ec-a5fe-97c8d4369386",
+      "ADLS_CONNECTION": "0a13edd2-d12d-41a1-be13-3da331d87820:8030c2e9-1a39-11ec-a5fe-97c8d4369386",
+      "ORACLE_TABLE_PATTERN": "TAXI_TRIPS"
+    }
+  ]
+}
