@@ -10,12 +10,6 @@ This project provides examples of how to use the [StreamSets Platform SDK](https
 
 - StreamSets Platform [API Credentials](https://docs.streamsets.com/portal/platform-controlhub/controlhub/UserGuide/OrganizationSecurity/APICredentials_title.html#concept_vpm_p32_qqb) for a user with permissions to start Jobs 
 
- - To avoid including API Credentials in the script, export these two environment variables
-   prior to running the script:
-
-        export CRED_ID=<your CRED_ID>>
-        export CRED_TOKEN=<your CRED_TOKEN>
-
 ### Configuration Details
 
 Create a JSON config file similar to the [examples](config) included
