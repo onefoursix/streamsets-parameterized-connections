@@ -27,9 +27,9 @@ Create a JSON config file similar to the [examples](config) included
 
 - <code>parameter_name</code> - only needed if <code>instance_name_suffix</code> is set to <code>"PARAM_VALUE"</code>
 
-- <code>attach_to_template</code> - set to true or false
+- <code>attach_to_template</code> - set to <code>true</code> or <code>false</code>
 
-- <code>delete_after_completion</code> - set to true or false
+- <code>delete_after_completion</code> - set to <code>true</code> or <code>false</code>
 
 - <code>runtime_parameters</code> - A list of maps, with the list size determining the number of Job Tempalte Instances that will be created and started.  See the examples below.
 
